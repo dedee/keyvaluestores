@@ -2,9 +2,37 @@
 
 Summary of key value stores out there.
 
+## Java
+
+### PalDB
+<https://github.com/linkedin/PalDB>
+
+Made by LinkedIn. Pure Java. Write once store. Uses single DB file.
+Looks good 1st but no commits since 4 years.
+
+### Map DB
+<https://github.com/jankotek/mapdb>
+
+Nice key value store written in Kotlin
+
+### JSON DB
+<http://jsondb.io>
+
+Small memory footprint, runs embedded within your Java program. Encryption support. Con: All data in memory.
+
+### MPH Table - MinimalPerfectHash Java
+
+<https://github.com/indeedeng/mph-table>
+<https://engineering.indeedblog.com/blog/2018/02/indeed-mph/>
+
+Looks promising. But unfortunately a lot of dependencies. Also it requires
+some mmap JNI library which is not available for all platforms. Windows
+possible at all?
+
+## C/C++
+
 ### CDB
 <http://cr.yp.to/cdb.html>
-
 
 ### Sparkey
 <https://github.com/spotify/sparkey>
@@ -17,23 +45,10 @@ Always index and data file. Addresses large files.
 
 Made by some Googlers. Actively maintained. 
 
-### PalDB
-<https://github.com/linkedin/PalDB>
-
-Made by LinkedIn. Pure Java. Write once store. Uses single DB file.
-Looks good 1st but no commits since 4 years.
-
-### MPH Table - MinimalPerfectHash Java
-
-<https://github.com/indeedeng/mph-table>
-<https://engineering.indeedblog.com/blog/2018/02/indeed-mph/>
-
-Looks promising. But unfortunately a lot of dependencies. Also it requires
-some mmap JNI library which is not available for all platforms. Windows
-possible at all?
-
 ### DiscoDB
 <https://github.com/discoproject/discodb>
+
+Discodb is comprised of a low-level data structure implemented in C with a OO C++ API.
  
 ### UnQLite
 <https://unqlite.org/>
@@ -63,16 +78,12 @@ https://github.com/lastfm/lastcommons-kyoto
 ### faster
 <https://github.com/Microsoft/FASTER>
 
+C/C# implementation. Concurrent key-value store + cache that is designed for point lookups and heavy updates.
+
+
+## RUST
+
 ### sled
 <https://crates.io/crates/sled>
 
-### Map DB
-<https://github.com/jankotek/mapdb>
-
-Nice key value store written in Kotlin
-
-### JSON DB
-<http://jsondb.io>
-
-Small memory footprint, runs embedded within your Java program. Encryption support. Con: All data in memory.
 
