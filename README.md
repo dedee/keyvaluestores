@@ -66,3 +66,13 @@ https://github.com/lastfm/lastcommons-kyoto
 ### sled
 <https://crates.io/crates/sled>
 
+### Map DB
+<https://github.com/jankotek/mapdb>
+
+Nice key value store written in Kotlin
+
+### JSON DB
+<http://jsondb.io>
+
+Small memory footprint, runs embedded within your Java program. Encryption support. Con: All data in memory.
+
