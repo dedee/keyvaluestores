@@ -29,6 +29,16 @@ Looks promising. But unfortunately a lot of dependencies. Also it requires
 some mmap JNI library which is not available for all platforms. Windows
 possible at all?
 
+### SG-CDB
+<https://github.com/malyn/sg-cdb>
+
+Java implementation of D. Bernsteins CDB algorithm. Well coded, but inactive since 7 years.
+
+### Sleepycat cdb-java
+<https://github.com/sleepy-cat/cdb-java>
+
+Another Java implementation of CDB.
+
 ## C/C++
 
 ### CDB
