@@ -39,6 +39,13 @@ Java implementation of D. Bernsteins CDB algorithm. Well coded, but inactive sin
 
 Another Java implementation of CDB.
 
+### Xodus ###
+<https://github.com/JetBrains/xodus>
+
+A Jetbrains embedded transactional database written in Java and Kotlin.
+https://github.com/JetBrains/xodus/tree/master/entity-store
+
+
 ## C/C++
 
 ### CDB
